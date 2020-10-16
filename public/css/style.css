@@ -1,0 +1,59 @@
+body{
+    background: #fff;
+    height: 100%;
+}
+
+.row > div{margin: 10px 0px;}
+
+.bg-dark{background-color: #000!important;}
+
+.navbar-dark .navbar-nav .nav-link {color: #fff;}
+
+.parallax{
+    /* imagen usada */
+    background-image: url("../img/backgroundy.jpg");
+    /* altura */
+    height: 20em;
+    /* efecto paralax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.estratevaBK{
+    min-height: 100%;
+    background-color:black;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+span.yell{color:  #FFCE02;}
+
+.circ{
+    height: 200px;   
+    width: auto; 
+    padding-bottom: 2em;
+}
+
+/* menu */
+.navbar-collapse{flex-grow: 0;}
+
+/* alert */
+.alert {margin-bottom: 0;}
+
+/* metodologia */
+.col-lg-2 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#lft{text-align: left;}
+
+.yellBtn {
+    background-color: #FFCE02;
+    border-color: #FFCE02;
+}
